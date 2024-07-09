@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #010824;
+  color: #eee;
+  font-size: 15px;
+  min-height: 100vh;
+  background-image: repeating-linear-gradient(
+      to right,
+      transparent 0 49px,
+      #eee1 49px 50px
+    ),
+    repeating-linear-gradient(to bottom, transparent 0 49px, #eee1 49px 50px);
+  position: relative; /* Ensure the body can be the reference point for the pseudo-element */
+}
+
+body::before {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  content: "";
+  background-image: linear-gradient(to right, #d02e23, #7a43b6);
+  top: -200px; /* Make sure it's positioned correctly */
+  left: calc(50% - 200px); /* Make sure it's positioned correctly */
+  z-index: -1; /* Place it behind the content */
+  border-radius: 50% 50% 0 0;
+  pointer-events: none;
+  filter: blur(250px);
+}
+
+main {
+  width: min(1300px, 100%);
+  margin: auto;
+}
+
+@keyframes gradientAnimation {
+  to {
+    background-position: 200% center;
+  }
+}
