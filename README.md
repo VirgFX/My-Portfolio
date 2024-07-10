@@ -31,7 +31,7 @@ Welcome to my portfolio! This repository showcases my projects, including Chatte
   - Responsive Design
 
 ### 3. Horizon Banking Web Application
-<img src="public/HorizonBanking.png" alt="ChatterSpace" width="400" height="300">
+<img src="public/HorizonBanking.png" alt="ChatterSpace" width="600" height="500">
 
 
 **Horizon Banking** is a secure and user-friendly web application designed to provide a seamless online banking experience.
