@@ -7,6 +7,7 @@ Welcome to my portfolio! This repository showcases my projects, including Chatte
 ## Projects
 
 ### 1. ChatterSpace Chat Web Application
+<img src="public/HorizonBanking.png" alt="ChatterSpace" width="600" height="500">
 
 **ChatterSpace** is a real-time chat application designed to provide a seamless communication experience. Users can join chat rooms, send messages, and interact with others in real-time.
 
@@ -19,6 +20,7 @@ Welcome to my portfolio! This repository showcases my projects, including Chatte
   - Responsive Design
 
 ### 2. Nike Web Store
+<img src="public/HorizonBanking.png" alt="ChatterSpace" width="600" height="500">
 
 **Nike Web Store** is an e-commerce application designed to provide a seamless and enjoyable shopping experience for users looking to purchase Nike products.
 
