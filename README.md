@@ -31,6 +31,7 @@ Welcome to my portfolio! This repository showcases my projects, including Chatte
   - Responsive Design
 
 ### 3. Horizon Banking Web Application
+![Horizon Banking](public/HorizonBanking.png)
 
 **Horizon Banking** is a secure and user-friendly web application designed to provide a seamless online banking experience.
 
